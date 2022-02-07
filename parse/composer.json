@@ -1,0 +1,15 @@
+{
+    "require": {
+        "php": "^7.2|^8.0",
+        "ext-dom": "*",
+        "symfony/console": "^5.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Parse\\Commands\\": "./commands"
+        }
+    }
+}
